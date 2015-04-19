@@ -1,0 +1,21 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "org.template.classification.ClassificationEngine",
+  "datasource": {
+    "params": {
+      "appName": "LRBFGS"
+    }
+  },
+  "algorithms": [
+    {
+      "name": "logisticLBFGS",
+      "params": {
+        "maxIter": 100,
+        "regParam": 0.01,
+        "fitIntercept": true,
+        "categoricalPrediction": false
+      }
+    }
+  ]
+}
