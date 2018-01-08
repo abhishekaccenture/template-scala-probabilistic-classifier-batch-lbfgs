@@ -1,1 +1,1 @@
-addSbtPlugin("io.prediction" % "pio-build" % "0.9.0")
+addSbtPlugin("io.prediction" % "pio-build" % "0.12.0")
