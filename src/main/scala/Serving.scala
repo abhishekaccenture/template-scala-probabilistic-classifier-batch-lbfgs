@@ -1,6 +1,6 @@
 package org.template.classification
 
-import io.prediction.controller.LServing
+import org.apache.prediction.controller.LServing
 
 class Serving extends LServing[Query, PredictedResult] {
 
