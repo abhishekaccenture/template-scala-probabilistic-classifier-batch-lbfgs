@@ -1,6 +1,6 @@
 package org.template.classification
 
-import io.prediction.controller.PPreparator
+import org.apache.prediction.controller.PPreparator
 
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
