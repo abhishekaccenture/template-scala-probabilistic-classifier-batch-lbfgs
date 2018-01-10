@@ -1,4 +1,4 @@
-package org.apache.predictionio.controller.Metric
+package org.template.classification
 
 import org.apache.predictionio.controller.Evaluation
 import org.apache.predictionio.controller.MetricEvaluator
