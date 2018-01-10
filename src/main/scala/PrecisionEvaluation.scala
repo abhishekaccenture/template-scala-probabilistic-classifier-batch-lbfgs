@@ -1,8 +1,8 @@
 package org.template.classification
 
-import org.apache.prediction.controller.OptionAverageMetric
-import org.apache.prediction.controller.EmptyEvaluationInfo
-import org.apache.prediction.controller.Evaluation
+import org.apache.predictionio.controller.OptionAverageMetric
+import org.apache.predictionio.controller.EmptyEvaluationInfo
+import org.apache.predictionio.controller.Evaluation
 
 case class Precision(label: Double)
   extends OptionAverageMetric[EmptyEvaluationInfo, Query, PredictedResult, ActualResult] {
