@@ -1,7 +1,7 @@
 package org.template.classification
 
-import org.apache.prediction.controller.Evaluation
-import org.apache.prediction.controller.MetricEvaluator
+import org.apache.predictionio.controller.Evaluation
+import org.apache.predictionio.controller.MetricEvaluator
 
 object CompleteEvaluation extends Evaluation {
   engineEvaluator = (
