@@ -1,11 +1,11 @@
 package org.template.classification
 
-import io.prediction.controller.PDataSource
-import io.prediction.controller.EmptyEvaluationInfo
-import io.prediction.controller.EmptyActualResult
-import io.prediction.controller.Params
-import io.prediction.data.storage.Event
-import io.prediction.data.store.PEventStore
+import org.apache.prediction.controller.PDataSource
+import org.apache.prediction.controller.EmptyEvaluationInfo
+import org.apache.prediction.controller.EmptyActualResult
+import org.apache.prediction.controller.Params
+import org.apache.prediction.data.storage.Event
+import org.apache.prediction.data.store.PEventStore
 
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
