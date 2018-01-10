@@ -1,10 +1,10 @@
 package org.template.classification
 
-import org.apache.prediction.controller.AverageMetric
-import org.apache.prediction.controller.EmptyEvaluationInfo
-import org.apache.prediction.controller.EngineParams
-import org.apache.prediction.controller.EngineParamsGenerator
-import org.apache.prediction.controller.Evaluation
+import org.apache.predictionio.controller.AverageMetric
+import org.apache.predictionio.controller.EmptyEvaluationInfo
+import org.apache.predictionio.controller.EngineParams
+import org.apache.predictionio.controller.EngineParamsGenerator
+import org.apache.predictionio.controller.Evaluation
 
 case class Accuracy()
   extends AverageMetric(EmptyEvaluationInfo, Query, PredictedResult, ActualResult) {
