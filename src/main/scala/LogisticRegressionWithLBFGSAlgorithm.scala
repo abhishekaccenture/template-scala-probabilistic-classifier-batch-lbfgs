@@ -1,7 +1,7 @@
 package org.template.classification
 
-import io.prediction.controller.P2LAlgorithm
-import io.prediction.controller.Params
+import org.apache.prediction.controller.P2LAlgorithm
+import org.apache.prediction.controller.Params
 
 import org.apache.spark.mllib.classification.LogisticRegressionWithLBFGS
 import org.apache.spark.mllib.classification.LogisticRegressionModel
