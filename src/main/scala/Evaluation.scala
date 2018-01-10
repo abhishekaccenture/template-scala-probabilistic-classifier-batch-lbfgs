@@ -6,7 +6,7 @@ import org.apache.predictionio.controller.EngineParams
 import org.apache.predictionio.controller.EngineParamsGenerator
 import org.apache.predictionio.controller.Evaluation
 
-case class Accuracy()
+case class Accuracy
   extends AverageMetric(EmptyEvaluationInfo, Query, PredictedResult, ActualResult) {
   def calculate(query: Query, predicted: PredictedResult, actual: ActualResult)
   : Double = (if (predicted.label == actual.label) 1.0 else 0.0)
