@@ -1,7 +1,6 @@
-package org.template.classification
+package org.apache.predictionio.controller.Metric
 
 import org.apache.predictionio.controller.Evaluation
-import org.apache.predictionio.controller.Metric
 import org.apache.predictionio.controller.MetricEvaluator
 
 object CompleteEvaluation extends Evaluation {
