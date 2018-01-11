@@ -6,7 +6,7 @@
     "name":"",
     "params":{
       "appName": "PredClassifer"
-      "evalK":5
+      "evalK": 5
     }
   },
   "algorithms": [
