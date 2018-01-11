@@ -5,7 +5,7 @@
   "datasource": {
     "name":"",
     "params":{
-      "appName": "PredClassifer"
+      "appName": "LRBFGS"
       "evalK": 5
     }
   },
