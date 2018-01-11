@@ -5,6 +5,7 @@
   "datasource": {
     "name":"",
     "params":{
+      "appName": "PredClassifer"
       "evalK":5
     }
   },
