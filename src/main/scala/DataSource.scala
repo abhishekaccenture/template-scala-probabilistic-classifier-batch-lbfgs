@@ -33,7 +33,7 @@ class DataSource(val dsp: DataSourceParams)
       appName = dsp.appName,
       entityType = "user",
       // only keep entities with these required properties defined
-      required = Some(List("plan", "attr0", "attr1", "attr2")))(sc)
+      required = Some(List("plan", "attr0", "attr1", "attr2", "attr3")))(sc)
       // aggregateProperties() returns RDD pair of
       // entity ID and its aggregated properties
       .map { case (entityId, properties) =>
@@ -42,7 +42,8 @@ class DataSource(val dsp: DataSourceParams)
             Vectors.dense(Array(
               properties.get[Double]("attr0"),
               properties.get[Double]("attr1"),
-              properties.get[Double]("attr2")
+              properties.get[Double]("attr2"), 
+              properties.get[Double]("attr3")
             ))
           )
         } catch {
@@ -71,7 +72,7 @@ class DataSource(val dsp: DataSourceParams)
       appName = dsp.appName,
       entityType = "user",
       // only keep entities with these required properties defined
-      required = Some(List("plan", "attr0", "attr1", "attr2")))(sc)
+      required = Some(List("plan", "attr0", "attr1", "attr2", "attr3")))(sc)
       // aggregateProperties() returns RDD pair of
       // entity ID and its aggregated properties
       .map { case (entityId, properties) =>
@@ -80,7 +81,8 @@ class DataSource(val dsp: DataSourceParams)
             Vectors.dense(Array(
               properties.get[Double]("attr0"),
               properties.get[Double]("attr1"),
-              properties.get[Double]("attr2")
+              properties.get[Double]("attr2"),
+              properties.get[Double]("attr3")
             ))
           )
         } catch {
