@@ -8,6 +8,6 @@ object CompleteEvaluation extends Evaluation {
     ClassificationEngine(),
     MetricEvaluator(
       metric = Accuracy(),
-      otherMetrics = Seq(Precision(0.0), Precision(1.0), Precision(2.0)),
+      otherMetrics = Seq(Precision(0.0), Precision(1.0), Precision(2.0),Precision(3.0)),
       outputPath = "best.json"))
 }
