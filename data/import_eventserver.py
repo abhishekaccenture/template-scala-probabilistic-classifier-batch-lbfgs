@@ -21,6 +21,7 @@ def import_events(client, file):
         "attr0" : int(attr[0]),
         "attr1" : int(attr[1]),
         "attr2" : int(attr[2]),
+        "attr3" : int(attr[3]),
         "plan" : int(plan)
       }
     )
